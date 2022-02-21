@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a8adfa6c0348e1541820c39f0e0cd921
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - grid: {instanceID: 0}
+  - buildingPrefab1: {fileID: -4404349322276869285, guid: 899993444eae6ef43adf79634b69adcb,
+      type: 3}
+  - buildingPrefab2: {instanceID: 0}
+  - buildingPrefab3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
