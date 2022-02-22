@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Grid : MonoBehaviour
 {
     public SpawnTile[,] tiles = new SpawnTile[10, 10]; 
@@ -15,6 +16,7 @@ public class Grid : MonoBehaviour
     {
         GenerateMap();
     }
+
 
     public void GenerateMap()
     {

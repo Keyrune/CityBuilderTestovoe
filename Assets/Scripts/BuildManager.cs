@@ -23,6 +23,8 @@ public class BuildManager : MonoBehaviour {
 	public Building buildingPrefab3;
     private Building selectedBuilding;
     private int buildingSize;
+    private List<Building> buildings;
+
 
 	void Start ()
 	{
@@ -50,7 +52,7 @@ public class BuildManager : MonoBehaviour {
         Building newBuilding = Instantiate(selectedBuilding, new Vector3(x, 0f, y) + positionOffset, transform.rotation);
         newBuilding.size = size;
         newBuilding.position = new Vector2(x, y);
-        
+
         for (int i = 0; i < size; i++)
         {
             for (int j = 0; j < size; j++)
